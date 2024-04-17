@@ -1,6 +1,6 @@
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE}
-#install.packages("pacman")
+install.packages("pacman")
 pacman::p_load(quarto, shiny, dplyr, ggplot2, remotes, openalexR, httr, jsonlite, kableExtra, DT, stringr, scales, lubridate, bslib, bsicons)
 ```
 
