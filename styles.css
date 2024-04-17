@@ -1,1 +1,12 @@
 /* css styles */
+/* Add custom font */
+          @font-face {
+            font-family: 'Nunito Variable';
+            src: url('Nunito_Complete/Fonts/Variable/Nunito-Variable.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+          }
+          /* Apply custom font to body */
+          body {
+            font-family: 'Nunito Variable', sans-serif;
+          }
