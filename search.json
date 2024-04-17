@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "static-file/index.html",
+    "href": "static-file/index.html",
     "title": "subtitle",
     "section": "",
     "text": "My text\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 100\n\n[1] 101"
