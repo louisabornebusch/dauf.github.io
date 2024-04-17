@@ -2,9 +2,23 @@
   {
     "objectID": "static-file/index.html",
     "href": "static-file/index.html",
-    "title": "subtitle",
+    "title": "",
     "section": "",
-    "text": "My text\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 100\n\n[1] 101"
+    "text": "# Downloading packages -------------------------------------------------------\n- Downloading pacman from CRAN ...              OK [367.8 Kb in 0.25s]\n- Downloading remotes from CRAN ...             OK [417.6 Kb in 0.18s]\nSuccessfully downloaded 2 packages in 0.74 seconds.\n\nThe following package(s) will be installed:\n- pacman  [0.5.1]\n- remotes [2.5.0]\nThese packages will be installed into \"~/work/dauf.github.io/dauf.github.io/renv/library/R-4.2/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing remotes ...                        OK [installed binary and cached in 0.46s]\n- Installing pacman ...                         OK [installed binary and cached in 0.45s]\nSuccessfully installed 2 packages in 1 second.\n/*\n@font-face {\n  font-family: 'Nunito Variable';\n  src: url('/kth_exercise/exercise/Nunito_Complete/Fonts/Variable/Nunito-Variable.ttf') format('truetype');\n}\n*/\n\n/* valueboxes */\n.quarto-dashboard .bslib-value-box .value-box-value {\n    font-size: clamp(.1em, 5cqw, 5em)!important;\n}\n\n/* table body */\n.thead, tbody, tfoot, tr, td, th {\n    font-size: 0.8rem!important;\n}\n\n/* table column filters */\n.form-control {\n    padding: 0.5rem 1rem!important;\n    font-size: 0.8rem!important;\n    }"
+  },
+  {
+    "objectID": "static-file/index.html#rows",
+    "href": "static-file/index.html#rows",
+    "title": "",
+    "section": "Rows",
+    "text": "Rows\n\nlist(\n  icon = \"bar-chart\",\n  color = \"primary\",\n  value = max(group_df_plotting$tot)\n)\n\n$icon\n[1] \"bar-chart\"\n\n$color\n[1] \"primary\"\n\n$value\n[1] 215\n\n\n\nlist(\n  icon = \"book\",\n  color = \"warning\",\n  value = length(group_df_plotting$key_display_name)\n)\n\n$icon\n[1] \"book\"\n\n$color\n[1] \"warning\"\n\n$value\n[1] 131\n\n\n\nlist(\n  icon = \"trophy\",\n  color = \"success\",\n  value = group_df_plotting %&gt;% \n    arrange(desc(count)) %&gt;% \n    slice_head(., n = 1) %&gt;% \n    distinct(key_display_name) %&gt;% \n    pull(.)\n)\n\n$icon\n[1] \"trophy\"\n\n$color\n[1] \"success\"\n\n$value\n[1] \"bioRxiv (Cold Spring Harbor Laboratory)\""
+  },
+  {
+    "objectID": "static-file/index.html#rows-1",
+    "href": "static-file/index.html#rows-1",
+    "title": "",
+    "section": "Rows",
+    "text": "Rows"
   },
   {
     "objectID": "about.html",
